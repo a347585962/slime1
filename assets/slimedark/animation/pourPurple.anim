@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "pourPurple",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b13cef9d-4257-4945-b330-7f81bef63ed2"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "b13e7815-8507-435b-a680-1429bcce94c3"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

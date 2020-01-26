@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b127962d-ff7d-4194-96c6-70e698f1407f",
+  "atlasJson": "{\"imagePath\":\"texture.png\",\"SubTexture\":[{\"x\":1,\"y\":1,\"width\":359,\"name\":\"motion1_slime\",\"height\":350},{\"x\":1,\"y\":353,\"width\":479,\"name\":\"motion2_slime\",\"height\":234}],\"name\":\"unicornSlimeRoll\"}",
+  "texture": "b1243375-e926-40af-86c4-5a44892537c7",
+  "subMetas": {}
+}

@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "pourGlue",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b21a5b4d-a383-4243-997d-9f468f166994"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "b21a583c-8c47-4954-beec-08866fe635dc"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

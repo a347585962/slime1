@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "df94d56d-773d-494f-8801-432f47e25e41",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "foodcoloring_pink_fall": {
+      "ver": "1.0.4",
+      "uuid": "c57aeaf3-c078-46b2-a264-bf4da3db1d2b",
+      "rawTextureUuid": "df94d56d-773d-494f-8801-432f47e25e41",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4,
+      "offsetY": 0.5,
+      "trimX": 6,
+      "trimY": 9,
+      "width": 107,
+      "height": 270,
+      "rawWidth": 127,
+      "rawHeight": 289,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

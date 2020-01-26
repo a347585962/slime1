@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kneadSlime_blue",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.25,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e889ca60-7c6d-4da6-a37b-bff05ddfa6d0"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "721eb94c-b400-4c08-b1be-3d30e6751279"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "516232d7-baa6-487b-a2a0-ee3857799d16"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "028a0c2a-ce6d-4bd2-aa7b-42f13723b70f"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "ae3e0e83-8d8c-415d-a408-328fef4dfdbf"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

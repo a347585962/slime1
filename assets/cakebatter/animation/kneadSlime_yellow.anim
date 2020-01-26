@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kneadSlime_yellow",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.25,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "031da83f-671b-4617-9f51-9a8efb112c37"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "81333f6b-3ff4-4dc9-8d02-0426849febf3"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "3b354db4-5186-49b1-b440-9aad97d74f10"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "aec93eea-e3bf-429d-961e-0b8ecdd63cbb"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "d66a0396-9971-439e-a8a5-c1b60053f985"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

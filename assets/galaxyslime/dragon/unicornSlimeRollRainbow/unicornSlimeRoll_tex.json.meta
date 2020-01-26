@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b19b500b-dd50-46c9-a543-1e9c18edcb5e",
+  "atlasJson": "{\"SubTexture\":[{\"x\":1,\"y\":1,\"width\":548,\"name\":\"motion_2\",\"height\":351},{\"x\":1,\"y\":625,\"width\":633,\"name\":\"motion_3\",\"height\":244},{\"x\":551,\"y\":1,\"width\":275,\"name\":\"motion_4\",\"height\":325},{\"x\":1,\"y\":871,\"width\":674,\"name\":\"motion_5\",\"height\":189},{\"x\":636,\"y\":328,\"width\":272,\"name\":\"motion_6\",\"height\":325},{\"x\":1,\"y\":354,\"width\":633,\"name\":\"motion_7\",\"height\":269}],\"imagePath\":\"unicornSlimeRoll_tex.png\",\"width\":1024,\"name\":\"unicornSlimeRoll\",\"height\":2048}",
+  "texture": "b19a6b32-f07d-4861-ba8d-95b7615ac792",
+  "subMetas": {}
+}

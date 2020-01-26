@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "draw",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -136,
+            39
+          ],
+          "motionPath": [
+            [
+              0,
+              96,
+              -62,
+              98,
+              75,
+              95
+            ]
+          ]
+        },
+        {
+          "frame": 0.75,
+          "value": [
+            141,
+            34
+          ],
+          "motionPath": [
+            [
+              160,
+              -44,
+              197,
+              -9,
+              123,
+              -80
+            ]
+          ]
+        },
+        {
+          "frame": 1.3,
+          "value": [
+            -8,
+            -109
+          ],
+          "motionPath": []
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 1.3,
+          "value": 255
+        },
+        {
+          "frame": 1.35,
+          "value": 0
+        },
+        {
+          "frame": 2,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

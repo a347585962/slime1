@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "pourWarm",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b1154160-956a-4ed3-be8c-1c89cf5202c7"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "b11478ed-b335-4340-9858-ac09fa220f7b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

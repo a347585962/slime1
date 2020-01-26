@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kettle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -3,
+            -37
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": [
+            -1,
+            221
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1.25,
+          "value": [
+            14,
+            25
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 2,
+          "value": [
+            30,
+            160
+          ],
+          "motionPath": []
+        }
+      ],
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.7,
+            "y": 0.7
+          }
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": 121
+        }
+      ]
+    },
+    "paths": {
+      "particle": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": true
+            },
+            {
+              "frame": 3.5,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

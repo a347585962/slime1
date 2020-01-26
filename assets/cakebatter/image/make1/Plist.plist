@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>PNG/make1/borax.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{267,1},{209,270}}</string>
+				<key>offset</key>
+				<string>{-18,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{250,281}</string>
+			</dict>
+			<key>PNG/make1/borax_fall.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{814,1},{195,270}}</string>
+				<key>offset</key>
+				<string>{-25,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{250,281}</string>
+			</dict>
+			<key>PNG/make1/borax_shadow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{984,273},{240,31}}</string>
+				<key>offset</key>
+				<string>{5,-125}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{250,281}</string>
+			</dict>
+			<key>PNG/make1/cup_borax.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{264,262}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{290,262}</string>
+			</dict>
+			<key>PNG/make1/scoop_borax.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{253,353},{180,100}}</string>
+				<key>offset</key>
+				<string>{-41,-22}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{274,198}</string>
+			</dict>
+			<key>PNG/make1/scoop0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{539,1},{273,198}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{274,198}</string>
+			</dict>
+			<key>PNG/make1/scoop1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,432},{173,112}}</string>
+				<key>offset</key>
+				<string>{-50,-43}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{274,198}</string>
+			</dict>
+			<key>PNG/make1/water.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,265},{165,169}}</string>
+				<key>offset</key>
+				<string>{0,-20}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{191,275}</string>
+			</dict>
+			<key>PNG/make1/water_fall.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{267,212},{139,229}}</string>
+				<key>offset</key>
+				<string>{-20,10}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{191,275}</string>
+			</dict>
+			<key>PNG/make1/watercup_shadow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{172,265},{185,79}}</string>
+				<key>offset</key>
+				<string>{2,-98}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{191,275}</string>
+			</dict>
+			<key>PNG/make1/watercup0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{539,201},{187,254}}</string>
+				<key>offset</key>
+				<string>{-2,10}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{191,275}</string>
+			</dict>
+			<key>PNG/make1/watercup1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{795,273},{187,238}}</string>
+				<key>offset</key>
+				<string>{-2,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{191,275}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{1016,606}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1016</integer>
+			<key>height</key>
+			<integer>606</integer>
+		</dict>
+	</dict>
+</plist>

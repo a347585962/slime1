@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "b7738cb7-1d6b-4236-b7b3-1ae94cebce10",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "boraxwater0": {
+      "ver": "1.0.4",
+      "uuid": "b7798ed5-efe7-49f3-a7b8-603a89e4129f",
+      "rawTextureUuid": "b7738cb7-1d6b-4236-b7b3-1ae94cebce10",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 26,
+      "offsetY": 10,
+      "trimX": 52,
+      "trimY": 0,
+      "width": 91,
+      "height": 208,
+      "rawWidth": 143,
+      "rawHeight": 228,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

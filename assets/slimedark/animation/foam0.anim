@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "foam0",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.25,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2a33fa7a-93e7-45f7-a0f3-6e995f55d266"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "a9e8769f-c74b-4282-9a1a-226c3b958b64"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "6ff724ff-14d8-4f12-b7d0-bd0c66bc3070"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "dbaac0e1-bb4a-4ed5-b369-868081761629"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "8c2b2ae7-14cc-4457-9fc8-febba9bdba1e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

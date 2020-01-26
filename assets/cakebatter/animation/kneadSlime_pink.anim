@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kneadSlime_pink",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.25,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "ca913bc3-a79d-40f7-87bf-acf0b774b490"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "1830e882-22de-4ac8-9a5e-c82b23bb9753"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "b7e73f96-2f65-49ed-9723-ca3ee6e7eb57"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "1ad87ab8-6aa2-4ac9-b32d-f554299f0be9"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "36a2cf56-0c81-4719-a841-5ca8a3466d52"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

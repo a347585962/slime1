@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>PNG/make3/activator.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{343,0},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/activator_bottle_fall0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{734,0},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/activator_bottle_fall1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{343,155},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/activator_bottle0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{343,310},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/activator_bottle1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{734,391},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/activator_fall.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,338},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/activator_shadow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{155,338},{155,391}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{155,391}</string>
+			</dict>
+			<key>PNG/make3/bowl_activator.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,0},{166,130}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{166,130}</string>
+			</dict>
+			<key>PNG/make3/glue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,729},{139,299}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{139,299}</string>
+			</dict>
+			<key>PNG/make3/glue_fall.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,729},{139,299}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{139,299}</string>
+			</dict>
+			<key>PNG/make3/glue_shadow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{598,782},{139,299}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{139,299}</string>
+			</dict>
+			<key>PNG/make3/bowl_glue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{343,338}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{343,338}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

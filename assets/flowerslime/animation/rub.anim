@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rub",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            17.90399932861328,
+            -220,
+            0
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            17.90399932861328,
+            -134.8820037841797,
+            0
+          ]
+        },
+        {
+          "frame": 2,
+          "value": [
+            17.90399932861328,
+            -220,
+            0
+          ]
+        }
+      ]
+    },
+    "paths": {
+      "hand": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1,
+              "value": false
+            },
+            {
+              "frame": 2,
+              "value": true
+            }
+          ]
+        }
+      },
+      "hand1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1,
+              "value": true
+            },
+            {
+              "frame": 2,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

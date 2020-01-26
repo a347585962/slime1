@@ -1,0 +1,141 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "closeCurtain",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "curtain1_right": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2,
+              "value": false
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                762,
+                57
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                250,
+                57
+              ]
+            }
+          ]
+        }
+      },
+      "curtain1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2,
+              "value": false
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -764,
+                57
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -250,
+                57
+              ]
+            }
+          ]
+        }
+      },
+      "curtain2_right": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 2,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 2,
+              "value": [
+                270,
+                57
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                195,
+                57
+              ]
+            }
+          ]
+        }
+      },
+      "curtain2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 2,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 2,
+              "value": [
+                -270,
+                57
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                -195,
+                57
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 2.5,
+      "func": "resetScene",
+      "params": []
+    }
+  ]
+}

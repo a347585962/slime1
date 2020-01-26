@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kettle2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.933333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            3,
+            3
+          ]
+        },
+        {
+          "frame": 0.9666666666666667,
+          "value": [
+            21,
+            230
+          ]
+        },
+        {
+          "frame": 2.1166666666666667,
+          "value": [
+            21,
+            170
+          ]
+        },
+        {
+          "frame": 3.933333333333333,
+          "value": [
+            21,
+            240
+          ]
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0.45,
+          "value": 0
+        },
+        {
+          "frame": 0.9666666666666667,
+          "value": 140
+        }
+      ]
+    },
+    "paths": {
+      "water_shadow": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "particle": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": true
+            },
+            {
+              "frame": 3.933333333333333,
+              "value": false
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": -70
+            },
+            {
+              "frame": 0.95,
+              "value": -100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

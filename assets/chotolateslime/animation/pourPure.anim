@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "pourPure",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b113d4dd-1c0b-4306-834f-1dd344d38a07"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "b11e7564-b2ba-4ce4-a433-23a6a90fca09"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            7.8,
+            236.5
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

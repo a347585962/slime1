@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bird3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2,
+  "sample": 2.5,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b21a9ce0-6b18-47a1-8f69-6b614d1af02a"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "b21b655f-6f83-49ce-a7ba-8007d547ab4d"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "b2147215-b827-43c5-8a3d-d34153f303b4"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

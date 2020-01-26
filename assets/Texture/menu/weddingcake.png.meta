@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "3ab658e1-f02e-42b8-b00c-d1fcf6454d80",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "weddingcake": {
+      "ver": "1.0.4",
+      "uuid": "e116ddb0-9aae-472c-ac68-abe55dfb9d5b",
+      "rawTextureUuid": "3ab658e1-f02e-42b8-b00c-d1fcf6454d80",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -1,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 569,
+      "height": 151,
+      "rawWidth": 570,
+      "rawHeight": 153,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

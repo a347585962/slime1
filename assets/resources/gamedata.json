@@ -1,0 +1,121 @@
+﻿[
+    {
+        "GameName": "glitter_slime",
+        "isNew": "new",
+        "Index":"1",
+        "UpdateDate":"",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "chocolate_slime",
+        "isNew": "new",
+        "Index":"2",
+        "UpdateDate":"",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "rainbow_slime",
+        "isNew": "new",
+        "Index":"3",
+        "UpdateDate":"Online in about one week.",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "batter_slime",
+        "isNew": "new",
+        "Index":"5",
+        "UpdateDate":"Online in about three weeks.",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "dark_slime",
+        "isNew": "new",
+        "Index":"4",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "makeup_slime",
+        "isNew": "new",
+        "Index":"6",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "flower_slime",
+        "isNew": "new",
+        "Index":"7",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "crazy_slime",
+        "isNew": "new",
+        "Index":"8",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"no"
+    },
+    {
+        "GameName": "rainbowpoop_slime",
+        "isNew": "new",
+        "Index":"9",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "galaxy_slime",
+        "isNew": "new",
+        "Index":"10",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "chiristmas_slime",
+        "isNew": "new",
+        "Index":"11",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "mermaid_slime",
+        "isNew": "new",
+        "Index":"12",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"no"
+    },
+    {
+        "GameName": "succlunt_slime",
+        "isNew": "new",
+        "Index":"13",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"no"
+    },
+    {
+        "GameName": "craxy_emoji_slime",
+        "isNew": "new",
+        "Index":"14",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"yes"
+    },
+    {
+        "GameName": "unicorn_slime",
+        "isNew": "new",
+        "Index":"15",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"no"
+    },
+    {
+        "GameName": "floam_slime",
+        "isNew": "new",
+        "Index":"16",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"no"
+    },
+    {
+        "GameName": "colar_glow_slime",
+        "isNew": "new",
+        "Index":"17",
+        "UpdateDate":"Coming Soon!",
+        "isUpStore":"no"
+    }
+]

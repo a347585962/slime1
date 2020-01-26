@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b2114c05-72d7-4a1f-9e75-2820a79977b6",
+  "atlasJson": "{\"SubTexture\":[{\"x\":1,\"y\":702,\"width\":309,\"name\":\"motion0_slime\",\"height\":278},{\"x\":501,\"y\":431,\"width\":393,\"name\":\"motion1_slime\",\"height\":259},{\"x\":1,\"y\":431,\"width\":498,\"name\":\"motion2_slime\",\"height\":269},{\"x\":1,\"y\":204,\"width\":632,\"name\":\"motion3_slime\",\"height\":225},{\"x\":1,\"y\":1,\"width\":731,\"name\":\"motion4_slime\",\"height\":201},{\"x\":501,\"y\":692,\"width\":372,\"name\":\"motion5_slime\",\"height\":268}],\"width\":1024,\"name\":\"FlowerPullLayer\",\"imagePath\":\"FlowerPullLayer_tex.png\",\"height\":1024}",
+  "texture": "b21f0497-caec-4576-8121-9465eece5d0e",
+  "subMetas": {}
+}

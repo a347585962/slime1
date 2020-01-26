@@ -1,0 +1,135 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "startAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "curtain2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -198,
+                57
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -270,
+                57
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1,
+              "value": false
+            }
+          ]
+        }
+      },
+      "curtain2_right": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                195,
+                57
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                270,
+                57
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1,
+              "value": false
+            }
+          ]
+        }
+      },
+      "curtain1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                -250,
+                57
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                -765,
+                57
+              ]
+            }
+          ]
+        }
+      },
+      "curtain1_right": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                250,
+                57
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                759,
+                57
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

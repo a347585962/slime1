@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b7713247-e9f9-4ffc-9606-b166a7f7e061",
+  "atlasJson": "{\"SubTexture\":[{\"x\":1,\"y\":1,\"width\":458,\"name\":\"shadow\",\"height\":492}],\"width\":512,\"name\":\"poopPull\",\"imagePath\":\"poopPull_tex.png\",\"height\":512}",
+  "texture": "b7709fd9-35cf-48f2-a8b0-ec328687f35b",
+  "subMetas": {}
+}

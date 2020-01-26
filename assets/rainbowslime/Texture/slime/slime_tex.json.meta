@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b12b0b1e-6fa3-4af3-8df3-0de02913a92e",
+  "atlasJson": "{\"SubTexture\":[{\"x\":645,\"y\":249,\"width\":373,\"name\":\"mixing10\",\"height\":367},{\"x\":1,\"y\":784,\"width\":433,\"name\":\"pull0\",\"height\":277},{\"x\":1,\"y\":249,\"width\":553,\"name\":\"pull1\",\"height\":293},{\"x\":1,\"y\":544,\"width\":642,\"name\":\"pull2\",\"height\":238},{\"x\":1,\"y\":1,\"width\":848,\"name\":\"pull3\",\"height\":246},{\"x\":436,\"y\":784,\"width\":462,\"name\":\"pull4\",\"height\":246}],\"width\":1024,\"name\":\"slime\",\"imagePath\":\"slime_tex.png\",\"height\":2048}",
+  "texture": "b12a74a1-3884-48ed-b602-c66e6c71e52e",
+  "subMetas": {}
+}

@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rub",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.0166666666666666,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "handRight": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "7bf5505b-d97b-42fa-b7ac-0f7b1bdaca1d"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "76a89a1c-cf04-443a-a76b-77c9bf9aa422"
+                }
+              },
+              {
+                "frame": 2,
+                "value": {
+                  "__uuid__": "7bf5505b-d97b-42fa-b7ac-0f7b1bdaca1d"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

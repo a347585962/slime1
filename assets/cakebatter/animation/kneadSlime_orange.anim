@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kneadSlime_orange",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.25,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "ace3446f-5378-4110-af61-e0f2531c137e"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "72d622d7-2825-4902-9af3-da8f6220629b"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "55f736f2-17b3-46b0-b511-f8225c9ff100"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "17fcb2d1-dd3a-43f8-b5bd-2a8997109305"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "7e44e6cb-f9c9-4785-bdc1-eb39236e1086"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

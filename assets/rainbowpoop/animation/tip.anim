@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tip",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "finger": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                200,
+                0
+              ],
+              "motionPath": [
+                [
+                  4.2,
+                  -85,
+                  103.1,
+                  -85,
+                  -96.9,
+                  -85
+                ]
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -200,
+                0
+              ],
+              "motionPath": [
+                [
+                  13.1,
+                  103.8,
+                  -90.8,
+                  103.8,
+                  108.9,
+                  103.8
+                ]
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                200,
+                0
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      },
+      "juan0": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

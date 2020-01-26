@@ -1,0 +1,62 @@
+{
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "http://192.168.0.131:7456/preview-android-instant/",
+    "host": "",
+    "packageName": "org.cocos2d.UnicornFoodHall",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "appBundle": true,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "encryptJs": false,
+  "excludeScenes": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.UnicornFoodHall",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "startScene": "87613a5c-06a6-4451-930c-cdc2670abd6a",
+  "title": "DIYSlimeHall",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "separate_engine": false,
+    "subContext": ""
+  },
+  "xxteaKey": "cfae0ebe-8e21-49",
+  "zipCompressJs": true,
+  "android": {
+    "packageName": "org.cocos2d.UnicornFoodHall"
+  },
+  "ios": {
+    "packageName": "org.cocos2d.UnicornFoodHall"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.UnicornFoodHall"
+  },
+  "win32": {},
+  "includeAnySDK": null
+}

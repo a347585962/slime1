@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "b14526c0-2525-4dc1-afe0-87bfcbfa1ff1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "chocolatesauce": {
+      "ver": "1.0.4",
+      "uuid": "b14a4df8-51da-43ce-9600-ee5c7f3a2a80",
+      "rawTextureUuid": "b14526c0-2525-4dc1-afe0-87bfcbfa1ff1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 72,
+      "height": 205,
+      "rawWidth": 72,
+      "rawHeight": 205,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

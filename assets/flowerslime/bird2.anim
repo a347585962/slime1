@@ -1,0 +1,58 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bird2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 9.6,
+  "sample": 2.5,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            985,
+            206
+          ],
+          "motionPath": [
+            [
+              339,
+              218,
+              561,
+              233,
+              217,
+              210
+            ],
+            [
+              -39,
+              212,
+              97,
+              217,
+              -145,
+              208
+            ],
+            [
+              -360,
+              199,
+              -266,
+              199,
+              -571,
+              199
+            ]
+          ]
+        },
+        {
+          "frame": 9.6,
+          "value": [
+            -712,
+            156
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

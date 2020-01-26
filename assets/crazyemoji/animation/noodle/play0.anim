@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "play0",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.3444444444444446,
+  "sample": 90,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "mould": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                42
+              ]
+            },
+            {
+              "frame": 1.6555555555555554,
+              "value": [
+                -20.288000106811523,
+                12.815999984741211,
+                0
+              ]
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": [
+                -1,
+                -6
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": false
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.8,
+                "y": 0.8
+              }
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9,
+                "y": 0.9
+              }
+            }
+          ]
+        }
+      },
+      "slime0": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.8,
+                "y": 0.8
+              }
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9,
+                "y": 0.9
+              }
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "d1b4c641-72be-4221-b465-3cf270635295"
+                }
+              },
+              {
+                "frame": 1.6666666666666667,
+                "value": {
+                  "__uuid__": "6fd2ce03-a325-485c-b3b0-fea647e6b5b1"
+                }
+              },
+              {
+                "frame": 3.3333333333333335,
+                "value": {
+                  "__uuid__": "d1bf0387-6bc3-4ee2-9284-c5531d0c4764"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "borax",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.016666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -89,
+            -34
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1.0166666666666666,
+          "value": [
+            -142,
+            177
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 2.0166666666666666,
+          "value": [
+            -131,
+            73
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 3,
+          "value": [
+            -135,
+            200
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 4.016666666666667,
+          "value": [
+            -125,
+            92
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 5.016666666666667,
+          "value": [
+            -135,
+            203
+          ],
+          "motionPath": []
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 1.0166666666666666,
+          "value": -110
+        }
+      ]
+    },
+    "paths": {
+      "pourSuger": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1,
+              "value": true
+            },
+            {
+              "frame": 5,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

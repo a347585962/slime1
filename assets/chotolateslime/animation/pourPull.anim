@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "pourPull",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.033333333333333,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b116efe7-d8fd-4e77-8c84-7b0eda1944c6"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "b1113237-c5dc-4655-b257-8f5c47b1a56a"
+            }
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": {
+              "__uuid__": "b117c4ba-bcc1-4b3a-8b2e-decbf7bb3546"
+            }
+          },
+          {
+            "frame": 2,
+            "value": {
+              "__uuid__": "b1111bc1-bb04-49db-9373-b3f4e9422eca"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

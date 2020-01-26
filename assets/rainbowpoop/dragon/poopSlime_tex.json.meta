@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b77ea7c1-2309-4e4e-aed6-89a56e49f487",
+  "atlasJson": "{\"SubTexture\":[{\"x\":1,\"y\":1179,\"width\":1136,\"name\":\"motion0_slime\",\"height\":587},{\"x\":1139,\"y\":1,\"width\":1136,\"name\":\"mix_slime1\",\"height\":587},{\"x\":2277,\"y\":1,\"width\":1136,\"name\":\"motion1_slime\",\"height\":587},{\"x\":1,\"y\":1,\"width\":1136,\"name\":\"motion2_slime\",\"height\":587},{\"x\":2277,\"y\":590,\"width\":1136,\"name\":\"motion3_slime\",\"height\":587},{\"x\":1,\"y\":590,\"width\":1136,\"name\":\"motion4_slime\",\"height\":587},{\"x\":1139,\"y\":590,\"width\":1136,\"name\":\"motion5_slime\",\"height\":587}],\"width\":4096,\"name\":\"poopSlime\",\"imagePath\":\"poopSlime_tex.png\",\"height\":4096}",
+  "texture": "b77ec209-ce5d-4a87-abfe-70b1bf97b0c1",
+  "subMetas": {}
+}

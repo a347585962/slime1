@@ -1,0 +1,207 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "play0",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.016666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "mould": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                42
+              ]
+            },
+            {
+              "frame": 2.4833333333333334,
+              "value": [
+                -8,
+                -6
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                -1,
+                -6
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2.5,
+              "value": false
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.8,
+                "y": 0.8
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9,
+                "y": 0.9
+              }
+            }
+          ]
+        }
+      },
+      "slime0": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.8,
+                "y": 0.8
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9,
+                "y": 0.9
+              }
+            },
+            {
+              "frame": 5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "position": [
+            {
+              "frame": 2.4833333333333334,
+              "value": [
+                12,
+                0
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                -10,
+                0
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "43cfb774-c945-487c-9dfb-d043abac3b2a"
+                }
+              },
+              {
+                "frame": 2.4833333333333334,
+                "value": {
+                  "__uuid__": "43cfb774-c945-487c-9dfb-d043abac3b2a"
+                }
+              },
+              {
+                "frame": 2.5,
+                "value": {
+                  "__uuid__": "0af18126-b287-435f-bcbf-ff0c9b9bcb14"
+                }
+              },
+              {
+                "frame": 5,
+                "value": {
+                  "__uuid__": "605ad861-dcd4-4bb7-b9dd-c8ef9536fdf6"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "slime0_shadow": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.8,
+                "y": 0.8
+              }
+            },
+            {
+              "frame": 2.4833333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9,
+                "y": 0.9
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9,
+                "y": 0.9
+              }
+            },
+            {
+              "frame": 5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -9,
+                -109
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                -9,
+                -109
+              ]
+            },
+            {
+              "frame": 5,
+              "value": [
+                -14,
+                -122
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

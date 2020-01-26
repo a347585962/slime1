@@ -1,0 +1,235 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "coilSlime",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.033333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "right_hand0": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2.0166666666666666,
+              "value": false
+            }
+          ],
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                196,
+                -160
+              ]
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": [
+                380,
+                -80
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                380,
+                -80
+              ]
+            }
+          ]
+        }
+      },
+      "right_hand1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2.0166666666666666,
+              "value": false
+            }
+          ],
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                196,
+                -160
+              ]
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": [
+                380,
+                -80
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                380,
+                -80
+              ]
+            }
+          ]
+        }
+      },
+      "handRight": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 2.0166666666666666,
+              "value": true
+            }
+          ],
+          "position": [
+            {
+              "frame": 2.0166666666666666,
+              "value": [
+                161,
+                -315
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                161,
+                -315
+              ]
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": [
+                -72,
+                -172
+              ]
+            }
+          ]
+        }
+      },
+      "handLeft": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "slime": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "b127e37f-32b2-4d46-91d8-27863d2c70ad"
+                }
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": {
+                  "__uuid__": "b12fc57a-8d2a-43a6-98ff-350ec39eb61a"
+                }
+              },
+              {
+                "frame": 2.0166666666666666,
+                "value": {
+                  "__uuid__": "b121f890-be50-4463-8985-372441018683"
+                }
+              },
+              {
+                "frame": 3.0166666666666666,
+                "value": {
+                  "__uuid__": "b12e1a1d-56cb-4b74-aed9-8b176c2189fc"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": [
+                108,
+                73
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                108,
+                73
+              ]
+            },
+            {
+              "frame": 2.0166666666666666,
+              "value": [
+                53,
+                -28
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                53,
+                -28
+              ]
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "playAudio",
+      "params": []
+    },
+    {
+      "frame": 2,
+      "func": "playAudio",
+      "params": []
+    },
+    {
+      "frame": 3,
+      "func": "playAudio",
+      "params": []
+    },
+    {
+      "frame": 3.0166666666666666,
+      "func": "coilFinish",
+      "params": []
+    }
+  ]
+}

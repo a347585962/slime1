@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "pourChocolate",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b111d133-91dd-4134-944b-8e1480461d3b"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "b1150207-a9f7-449b-8ae1-8b39a29da5ef"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "b11f48d9-4e3b-4b81-87f8-fe118053bc91"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "b1133297-78fd-4f1d-a28b-3956804b0b78"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "b1143935-1d3b-4f52-87bd-50c6b6557f3d"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "scoop3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8333333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            48,
+            -59
+          ]
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": [
+            48,
+            180
+          ]
+        }
+      ]
+    },
+    "paths": {
+      "scoop0": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": false
+            }
+          ]
+        }
+      },
+      "scoop2_": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": false
+            }
+          ]
+        }
+      },
+      "scoop1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
