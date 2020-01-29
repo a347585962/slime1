@@ -59,13 +59,15 @@ export default class NewClass extends cc.Component {
 
         if(this.btnAudio)
             cc.audioEngine.playEffect(this.btnAudio, false);
-
-
-            showLaodingHall.getInstance().loadingDoneCallback = ()=>{
+            
+            cc.sys.localStorage.setItem("fromHall", 10);
+            cc.sys.garbageCollect();
+            cc.game.restart();
+            // showLaodingHall.getInstance().loadingDoneCallback = ()=>{
                 
-                TransitionScene.changeScene("hall", "111");
-            } ; 
-            showLaodingHall.getInstance().showAds(false);
+            //     TransitionScene.changeScene("hall", "111");
+            // }; 
+            // showLaodingHall.getInstance().showAds(false);
             
     }
     touchplay(event, data){

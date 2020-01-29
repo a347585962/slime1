@@ -55,7 +55,7 @@ export default class EnterGame extends cc.Component {
                     rotate.actionCallBack = function () {
                         
                         setTimeout(function () {
-                            self.checkEnter();
+                            //self.checkEnter();
                         }, 2000);
                         
                         let loading = CocosHelper.findNode(cc.Canvas.instance.node, "loading");
@@ -108,9 +108,9 @@ export default class EnterGame extends cc.Component {
                 if(rotate)
                     rotate.actionCallBack = function () {
                         
-                        setTimeout(function () {
-                            self.checkEnter();
-                        }, 2000);
+                        // setTimeout(function () {
+                        //     self.checkEnter();
+                        // }, 2000);
                         
                         let loading = CocosHelper.findNode(cc.Canvas.instance.node, "loading");
                         loading.active = true;
@@ -140,9 +140,10 @@ export default class EnterGame extends cc.Component {
          //停止所有音效
         //  cc.audioEngine.stopAllEffects();
 
-         //从游戏中回到大厅 显示全屏
+        //从游戏中回到大厅 显示全屏
          let key = "fromHall";
          let isLock =  cc.sys.localStorage.getItem(key);
+         let nextSceneName = "home";
          if(isLock == 10){
              console.log("大厅 显示全屏");
              console.log(cc.sys.localStorage.getItem(key));
@@ -150,9 +151,10 @@ export default class EnterGame extends cc.Component {
              cc.sys.localStorage.setItem(key, 11);
             
             setTimeout(() => {
-                jsToCPP.getInstance().showInterstitial();
+                if(cc.sys.isMobile)
+                    jsToCPP.getInstance().showInterstitial();
             }, 3500);
-
+            nextSceneName = "chooseNew";
              
         }
 
@@ -172,7 +174,13 @@ export default class EnterGame extends cc.Component {
             cc.loader.setAutoReleaseRecursively(audio, false);
 
         })
-        jsToCPP.getInstance().setEmailContentAndTitle("DIY Slime", "It’s the time to DIY your own crazy slime with so many rainbow colors and toppings.");
+        if(cc.sys.isMobile)
+        jsToCPP.getInstance().setEmailContentAndTitle("Rainbow Glitter Slime", "Have crazy slime fun with Galaxy Slime & Rainbow Slime & Rainbow Poop Slime");
+        
+        this.scheduleOnce(() => {
+            TransitionScene.changeScene(nextSceneName, "temp");
+        }, 5);
+        return;
         //debug-----------//
         
         // console.log("loadJsonFormNative");
@@ -209,11 +217,11 @@ export default class EnterGame extends cc.Component {
         
         // }
         //5S之后，加载本地
-        this.node.runAction(cc.sequence(cc.delayTime(5), cc.callFunc(function () {
+        // this.node.runAction(cc.sequence(cc.delayTime(5), cc.callFunc(function () {
             
-            self.loadJsonFormNative();
+        //     self.loadJsonFormNative();
 
-        })))
+        // })))
 
         // HttpUtils.getInstance().httpGet(url, function (resonpose) {
             
@@ -250,81 +258,81 @@ export default class EnterGame extends cc.Component {
        
     }
     
-    checkEnter(){
+    // checkEnter(){
 
-        //检查文件加载完成
+    //     //检查文件加载完成
 
-        let bg = CocosHelper.findNode(cc.Canvas.instance.node, "bg");
-        let self = this;
-        bg.runAction(cc.repeatForever(cc.sequence(cc.delayTime(0.2),cc.callFunc(function () {
-            console.log("checkEnter()" + self.canEnter);
-            if(self.canEnter){
+    //     let bg = CocosHelper.findNode(cc.Canvas.instance.node, "bg");
+    //     let self = this;
+    //     bg.runAction(cc.repeatForever(cc.sequence(cc.delayTime(0.2),cc.callFunc(function () {
+    //         console.log("checkEnter()" + self.canEnter);
+    //         if(self.canEnter){
 
-                bg.stopAllActions();
-                self.canEnter = false;
-                self.enterNextScene();
-            }
+    //             bg.stopAllActions();
+    //             self.canEnter = false;
+    //             self.enterNextScene();
+    //         }
 
-        }))));
+    //     }))));
        
 
-    }
+    // }
     public static isFirst: boolean = false;
-    enterNextScene(){
+    // enterNextScene(){
         
-        if(cc.sys.platform == cc.sys.ANDROID){
-            // TransitionScene.changeScene("cakeChoose", "temp");
-            let isLockHome =  cc.sys.localStorage.getItem("isFirstHome");
-            if(!isLockHome){
-                isLockHome = 1;
-                cc.sys.localStorage.setItem("isFirstHome", isLockHome);
-                TransitionScene.changeScene("home", "temp");
-            }else{
+    //     if(cc.sys.platform == cc.sys.ANDROID){
+    //         // TransitionScene.changeScene("cakeChoose", "temp");
+    //         let isLockHome =  cc.sys.localStorage.getItem("isFirstHome");
+    //         if(!isLockHome){
+    //             isLockHome = 1;
+    //             cc.sys.localStorage.setItem("isFirstHome", isLockHome);
+    //             TransitionScene.changeScene("home", "temp");
+    //         }else{
                 
-                TransitionScene.changeScene("hall", "temp");
-            }
-            // TransitionScene.changeScene("home", "temp");    
-        }else{
-            let isLock =  cc.sys.localStorage.getItem("isFirst");
-            if(!isLock){
-                isLock = 1;
-                cc.sys.localStorage.setItem("isFirst", isLock);
-                TransitionScene.changeScene("iosShow", "temp");
-            }else{
+    //             TransitionScene.changeScene("hall", "temp");
+    //         }
+    //         // TransitionScene.changeScene("home", "temp");    
+    //     }else{
+    //         let isLock =  cc.sys.localStorage.getItem("isFirst");
+    //         if(!isLock){
+    //             isLock = 1;
+    //             cc.sys.localStorage.setItem("isFirst", isLock);
+    //             TransitionScene.changeScene("iosShow", "temp");
+    //         }else{
 
-                let isLockHome =  cc.sys.localStorage.getItem("isFirstHome");
-                if(!isLockHome){
-                    isLockHome = 1;
-                    cc.sys.localStorage.setItem("isFirstHome", isLockHome);
-                    TransitionScene.changeScene("home", "temp");
-                }else{
+    //             let isLockHome =  cc.sys.localStorage.getItem("isFirstHome");
+    //             if(!isLockHome){
+    //                 isLockHome = 1;
+    //                 cc.sys.localStorage.setItem("isFirstHome", isLockHome);
+    //                 TransitionScene.changeScene("home", "temp");
+    //             }else{
     
-                    TransitionScene.changeScene("hall", "temp");
-                }
+    //                 TransitionScene.changeScene("hall", "temp");
+    //             }
                 
-            }
+    //         }
             
-        }
-    }
-    loadJsonFormNative(){
-        let self = this;
-        console.log("loadJsonFormNative");
-        // let bg = CocosHelper.findNode(cc.Canvas.instance.node, "bg");
-        // bg.stopAllActions();
-        cc.loader.loadRes("gamedata.json", function (err, object) {
-            if (err) {
-                cc.log("解析json文件失败" + err);
-                return;
-            }
+    //     }
+    // }
+    // loadJsonFormNative(){
+    //     let self = this;
+    //     console.log("loadJsonFormNative");
+    //     // let bg = CocosHelper.findNode(cc.Canvas.instance.node, "bg");
+    //     // bg.stopAllActions();
+    //     cc.loader.loadRes("gamedata.json", function (err, object) {
+    //         if (err) {
+    //             cc.log("解析json文件失败" + err);
+    //             return;
+    //         }
 
-            object.json.forEach(element => {
+    //         object.json.forEach(element => {
 
-                GameData.getInstance().initData(element);
+    //             GameData.getInstance().initData(element);
                 
-            });
-            self.canEnter = true;
-        });
-    }
+    //         });
+    //         self.canEnter = true;
+    //     });
+    // }
 
 
     // update (dt) {}

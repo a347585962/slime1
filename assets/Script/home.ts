@@ -59,9 +59,9 @@ export default class home extends cc.Component {
 
         cc.audioEngine.playEffect(this.touchAudio, false);
 
-        cc.sys.localStorage.setItem("isFirstHome", 1);
+        //cc.sys.localStorage.setItem("isFirstHome", 1);
 
-        TransitionScene.changeScene("hall", "t");
+        TransitionScene.changeScene("chooseNew", "t");
 
     }
 

@@ -1,16 +1,7 @@
 import TransitionScene from "../common/uitls/TransitionScene_my";
 import { CocosHelper } from "../common/Script/codebase/utils/CocosHelper";
 import MoveIn from "../cakebatter/common/Script/MoveInCB";
-
-// Learn TypeScript:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/typescript.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
+import showLaoding from "../common/Script/ads/showLaoding";
 
 const {ccclass, property} = cc._decorator;
 
@@ -30,7 +21,7 @@ export default class NewClass extends cc.Component {
     choose: cc.AudioClip = null;
 
 
-    buttonArray = ["chocolate_slime", "crazy_slime"];
+    buttonArray = ["galaxy_slime", "rainbowpoop_slime", "rainbow_slime"];
 
     start () {
 
@@ -43,7 +34,14 @@ export default class NewClass extends cc.Component {
             for (let index = 0; index < this.buttonArray.length; index++) {
                 const element = this.buttonArray[index];
                 let btnNode = CocosHelper.findNode(cc.Canvas.instance.node, element);
-    
+                
+
+                let light = btnNode.getChildByName("light");
+                if(light){
+                    light.runAction(cc.repeatForever(cc.rotateBy(0.5, Math.random() * 100)));
+                }
+
+
                 let logo = btnNode.getChildByName(btnNode.name + "_logo");
                 logo.active = true;
                 logo.scale = 0;
@@ -97,13 +95,28 @@ export default class NewClass extends cc.Component {
         touchNode.runAction(cc.sequence(cc.spawn(cc.jumpTo(1.0, cc.v2(0, -30), 50, 1), cc.scaleTo(1.0, 1.2)),cc.delayTime(1.0), cc.callFunc(()=>{
 
 
-            this.goToNext(touchNode.name);
+            showLaoding.getInstance().showAds(false);
+            showLaoding.getInstance().loadingDoneCallback = ()=>{
+                showLaoding.getInstance().loadingDoneCallback = null;
+                this.goToNext(touchNode.name);
 
+            };
+
+            
 
         })));
 
     }
 
+    touchHome(event){
+        let touchNode = event.target;
+        let btCm:cc.Button = touchNode.getComponent(cc.Button);
+        btCm.interactable = false;
+
+        cc.sys.localStorage.setItem("fromHall", 11);
+        cc.sys.garbageCollect();
+        cc.game.restart();
+    }
     goToNext(name){
         let isShowScene = false;
         if(name == "chiristmas_slime"){
