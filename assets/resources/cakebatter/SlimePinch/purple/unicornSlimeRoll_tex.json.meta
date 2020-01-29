@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d951171e-3125-41fc-8069-f5fd0f878f7e",
+  "atlasJson": "{\"SubTexture\":[{\"x\":616,\"y\":1587,\"width\":326,\"name\":\"blue0\",\"height\":311},{\"x\":1,\"y\":1587,\"width\":613,\"name\":\"blue1\",\"height\":311},{\"x\":1,\"y\":321,\"width\":925,\"name\":\"blue2\",\"height\":318},{\"x\":1,\"y\":1,\"width\":925,\"name\":\"motion3/motion2_slime9\",\"height\":318},{\"x\":1,\"y\":641,\"width\":925,\"name\":\"motion3/motion2_slime3\",\"height\":318},{\"x\":616,\"y\":961,\"width\":326,\"name\":\"motion1/motion0_slime9\",\"height\":311},{\"x\":616,\"y\":1274,\"width\":326,\"name\":\"motion1/motion0_slime3\",\"height\":311},{\"x\":1,\"y\":1274,\"width\":613,\"name\":\"motion2/motion1_slime9\",\"height\":311},{\"x\":1,\"y\":961,\"width\":613,\"name\":\"motion2/motion1_slime3\",\"height\":311}],\"width\":1024,\"name\":\"unicornSlimeRoll\",\"imagePath\":\"unicornSlimeRoll_tex.png\",\"height\":2048}",
+  "texture": "151cbab2-2466-4f04-b6e9-8e2f8e8be934",
+  "subMetas": {}
+}

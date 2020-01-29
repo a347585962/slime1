@@ -21,7 +21,7 @@ export default class NewClass extends cc.Component {
     choose: cc.AudioClip = null;
 
 
-    buttonArray = ["galaxy_slime", "rainbowpoop_slime", "rainbow_slime"];
+    buttonArray = ["batter_slime", "craxy_emoji_slime", "makeup_slime"];
 
     start () {
 
@@ -43,22 +43,27 @@ export default class NewClass extends cc.Component {
 
 
                 let logo = btnNode.getChildByName(btnNode.name + "_logo");
-                logo.active = true;
-                logo.scale = 0;
-                let detal = index % 2 == 0 ? 1 : -1;
-                logo.runAction(cc.sequence(cc.spawn(cc.rotateBy(0.5, detal * 360),cc.scaleTo(0.5, 1.0)),cc.callFunc(()=>{
+                if(logo){
 
-                    if(detal == -1){
+                    logo.active = true;
+                    logo.scale = 0;
+                    let detal = index % 2 == 0 ? 1 : -1;
+                    logo.runAction(cc.sequence(cc.spawn(cc.rotateBy(0.5, detal * 360),cc.scaleTo(0.5, 1.0)),cc.callFunc(()=>{
 
-                        //CocosHelper.createUpDownPrompt(logo);
-                        logo.runAction(cc.repeatForever(cc.sequence(cc.moveBy(1.2, cc.v2(0, -10)),cc.moveBy(1.2 , cc.v2(0, 10)))));
+                        if(detal == -1){
 
-                    }else{
-                        logo.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(1.5, 1.2),cc.scaleTo(1.5, 1.0))));
+                            //CocosHelper.createUpDownPrompt(logo);
+                            logo.runAction(cc.repeatForever(cc.sequence(cc.moveBy(1.2, cc.v2(0, -10)),cc.moveBy(1.2 , cc.v2(0, 10)))));
 
-                    }
+                        }else{
+                            logo.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(1.5, 1.2),cc.scaleTo(1.5, 1.0))));
 
-                })));
+                        }
+
+                    })));
+
+                }
+                
     
             }
 
@@ -95,13 +100,13 @@ export default class NewClass extends cc.Component {
         touchNode.runAction(cc.sequence(cc.spawn(cc.jumpTo(1.0, cc.v2(0, -30), 50, 1), cc.scaleTo(1.0, 1.2)),cc.delayTime(1.0), cc.callFunc(()=>{
 
 
+            cc.audioEngine.stopMusic();
             showLaoding.getInstance().showAds(false);
             showLaoding.getInstance().loadingDoneCallback = ()=>{
                 showLaoding.getInstance().loadingDoneCallback = null;
                 this.goToNext(touchNode.name);
 
             };
-
             
 
         })));
