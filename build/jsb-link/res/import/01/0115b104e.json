@@ -1,0 +1,1 @@
+[{"__type__":"cc.ParticleAsset","_name":"water","_native":".plist","spriteFrame":{"__uuid__":"b9xioktNFFVovWGqLer3zy"}},{"__type__":"cc.SpriteFrame","content":{"name":"water","texture":"f9/zlDb/pJDZSk3ISTGwnr","rect":[1,1,29,29],"offset":[-0.5,0.5],"originalSize":[32,32],"capInsets":[0,0,0,0]}}]

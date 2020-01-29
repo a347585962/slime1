@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"timing","_duration":35,"curveData":{"paths":{"clock2":{"props":{"angle":[{"frame":0,"value":0},{"frame":35,"value":-360}]}}}},"events":[{"frame":35,"func":"timeOver","params":[]}]}

@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"fingerMove2","_duration":1.6833333333333333,"wrapMode":"2","curveData":{"paths":{},"props":{"position":[{"frame":0,"value":[619,100]},{"frame":1,"value":[619,-125]}],"opacity":[{"frame":1,"value":255},{"frame":1.0166666666666666,"value":0},{"frame":1.6833333333333333,"value":0}]}}}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleId</key>
+	<string>1419528008</string>
+	<key>Banner</key>
+	<dict>
+		<key>Phone</key>
+		<string>ca-app-pub-7460046499845066/8361174125</string>
+		<key>Pad</key>
+		<string>ca-app-pub-7460046499845066/8361174125</string>
+	</dict>
+	<key>Rect</key>
+	<dict>
+		<key>Phone</key>
+		<string></string>
+		<key>Pad</key>
+		<string></string>
+	</dict>
+	<key>Interstitial</key>
+	<dict>
+		<key>Phone</key>
+		<string>ca-app-pub-7460046499845066/8521806282</string>
+		<key>Pad</key>
+		<string>ca-app-pub-7460046499845066/8521806282</string>
+	</dict>
+	<key>Crosspromo</key>
+	<dict>
+		<key>AppID</key>
+		<string>5b45a801fd40050e35ce929e</string>
+		<key>Signature</key>
+		<string>7dd836c2a7482739f6aee937cf7e575a5beef90b</string>
+	</dict>
+	<key>Rewarded</key>
+	<dict>
+		<key>AppID</key>
+		<string>ca-app-pub-7460046499845066/9451744571</string>
+		<key>Signature</key>
+		<string>ca-app-pub-7460046499845066/9451744571</string>
+	</dict>
+	<key>Native</key>
+	<dict>
+		<key>Phone</key>
+		<string></string>
+		<key>Pad</key>
+		<string></string>
+	</dict>
+	<key>Analytics</key>
+	<dict>
+		<key>Platform1</key>
+		<string></string>
+		<key>Platform2</key>
+		<string></string>
+		<key>Platform3</key>
+		<string></string>
+		<key>Platform4</key>
+		<string></string>
+	</dict>
+	<key>ServerBaseUrl</key>
+	<string>https://www.crazykidsgamesmedia.com</string>
+	<key>PrivacyPageUrl</key>
+	<string></string>
+	<key>MoreGamePage</key>
+	<string>https://itunes.apple.com/us/developer/yang-peng/id929127231</string>
+</dict>
+</plist>

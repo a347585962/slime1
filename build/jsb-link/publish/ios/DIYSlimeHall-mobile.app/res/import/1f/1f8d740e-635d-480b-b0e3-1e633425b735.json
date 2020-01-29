@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"tipRotate","_duration":1.5,"wrapMode":2,"curveData":{"paths":{"finger":{"props":{"position":[{"frame":0,"value":[150,0],"motionPath":[[-5.1,-106.2,69.2,-106.2,-80.8,-106.2]]},{"frame":0.8333333333333334,"value":[-150,0],"motionPath":[[-1.1,110.9,-76.3,110.9,73.7,110.9]]},{"frame":1.5,"value":[150,0],"motionPath":[]}]}}}}}

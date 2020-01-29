@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"dissolve","_duration":7,"sample":30,"curveData":{"props":{"opacity":[{"frame":0,"value":255},{"frame":7,"value":0}]}},"events":[{"frame":7,"func":"dissolveFinish","params":[]}]}
